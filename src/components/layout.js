@@ -1,6 +1,6 @@
 import React from "react"
 import { createGlobalStyle } from 'styled-components';
-import Navbar from '../components/globals/navbar/Navbar';
+import Navbar from './globals/navbar';
 const Layout = ({ children }) => {
   return (
     <React.Fragment>
