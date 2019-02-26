@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components';
 import { styles } from '../../../utils';
 import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa'
-export default class NavbarIcons extends Component {
+export default class Icons extends Component {
     state = {
         icons: [
             {
