@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import NavbarHeader from './NavbarHeader';
 import NavbarLinks from './NavbarLinks';
+import NavbarIcons from './Navbaricons';
 
 
 export default class Navbar extends Component {
@@ -21,6 +22,7 @@ export default class Navbar extends Component {
             <NavWrapper>
                 <NavbarHeader handleNavbar={this.handleNavbar} />
                 <NavbarLinks navbarOpen={this.state.navbarOpen} />
+                <NavbarIcons />
             </NavWrapper>
         )
     }
